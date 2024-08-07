@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "simple",
+      "pairs": [
+        {
+          "image": "wine_man.jpg",
+          "query": "Is the wine glass on the left or right?"
+        },
+        {
+          "image": "pickup_trucks_road.jpg",
+          "query": "In which direction is the blue vehicle on the left side heading?"
+        },
+        {
+          "image": "baby_among_women.jpg",
+          "query": "Can you see the baby held by one of the four women?"
+        },
+        {
+          "image": "baseball_kids.jpg",
+          "query": "Is the child on the left wearing green or blue clothing?"
+        },
+        {
+          "image": "room_and_cat.jpg",
+          "query": "Where are the cat and the television located?"
+        },
+        {
+          "image": "room_and_cat.jpg",
+          "query": "Can people see the television in the corner of the living room?"
+        }
+      ]
+    },
+    {
+      "name": "viewpoint_change",
+      "pairs": [
+        {
+          "image": "wine_man.jpg",
+          "query": "Assume that the viewer is the man on the right. From the viewer's perspective, is the wine glass on the left or right?"
+        },
+        {
+          "image": "wine_man.jpg",
+          "query": "Assume that the viewer is the man on the right. From the viewer's perspective, is the umbrella on the left or right?"
+        },
+        {
+          "image": "pickup_trucks_road.jpg",
+          "query": "Assume that he viewer is the brown vehicle on the right. In the view of the brown vehicle, which direction is the blue vehicle in the left-side heading?"
+        },
+        {
+          "image": "baseball_kids.jpg",
+          "query": "Assume that viewer is an adult man standing near the fence. Is the child on the viewer's left wearing green or blue clothes?"
+        }
+      ]
+    },
+    {
+      "name": "occlusion_reasoning",
+      "pairs": [
+        {
+          "image": "room_and_cat.jpg",
+          "query": "Assume that the viewer is the cat on the right side of the photo. Can the viewer see the television in the corner of the living room?"
+        },
+        {
+          "image": "baby_among_women.jpg",
+          "query": "Assume that the viewer is the man in the bottom left of the photo. Can this viewer see the baby held by one of the four women?"
+        }
+      ]
+    }
+  ]
+}
